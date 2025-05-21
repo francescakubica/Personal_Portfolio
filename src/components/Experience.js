@@ -55,37 +55,32 @@ export const Experience = () => {
 
   return (
 	<section className="experience" id="experience">
-	  <Container>
+	<Container>
 		<h2 className="text-center mb-5">Experience</h2>
-		<TrackVisibility once>
-		  {({ isVisible }) =>
-			<div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-			  {experiences.map((exp, idx) => (
-				<Row key={idx} className="mb-4 align-items-center">
-				 <Col xs={3} md={2} className="experience-logo-wrapper">
-					<img
-						src={exp.logo}
-						alt={`${exp.company} logo`}
-						className="img-fluid experience-logo"
-					/>
-					</Col>
-
-				  <Col xs={9} md={10}>
-					<h4 className="experience-title">{exp.title}</h4>
-<h6 className="experience-subheading">{exp.company} | {exp.date}</h6>
-
-					<ul>
-					  {exp.description.map((point, i) => (
-						<li key={i}>{point}</li>
-					  ))}
-					</ul>
-				  </Col>
-				</Row>
-			  ))}
-			</div>
-		  }
-		</TrackVisibility>
-	  </Container>
+		<div>
+		{experiences.map((exp, idx) => (
+			<Row key={idx} className="mb-4 align-items-center">
+			<Col xs={3} md={2} className="experience-logo-wrapper">
+				<img
+				src={exp.logo}
+				alt={`${exp.company} logo`}
+				className="img-fluid experience-logo"
+				/>
+			</Col>
+			<Col xs={9} md={10}>
+				<h4 className="experience-title">{exp.title}</h4>
+				<h6 className="experience-subheading">{exp.company} | {exp.date}</h6>
+				<ul>
+				{exp.description.map((point, i) => (
+					<li key={i}>{point}</li>
+				))}
+				</ul>
+			</Col>
+			</Row>
+		))}
+		</div>
+	</Container>
 	</section>
+
   );
 };

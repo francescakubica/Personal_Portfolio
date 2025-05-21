@@ -702,9 +702,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.6;
 }
 
-.animate__zoomIn {
-  --animate-duration: 1.2s;
-}
 .experience-logo {
   
   width: 150px;
