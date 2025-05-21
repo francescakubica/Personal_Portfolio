@@ -29,11 +29,11 @@ export const Contact = () => {
     setButtonText("Sending...");
 
     const templateParams = {
-      from_name: `${formDetails.firstName} ${formDetails.lastName}`, // used for sender field
-      name: `${formDetails.firstName} ${formDetails.lastName}`,      // used for template variable {{name}}
+      from_name: `${formDetails.firstName} ${formDetails.lastName}`,
       email: formDetails.email,
       message: formDetails.message,
     };
+
 
     try {
       await emailjs.send(
