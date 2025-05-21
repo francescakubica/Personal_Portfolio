@@ -1,6 +1,6 @@
 # Francesca Kubica’s Personal Portfolio 🎀
 
-This is my personal portfolio website — Hello Kitty–themed and proudly pink — built to showcase my academic, professional, and creative work. I created it to have fun learning React and express myself through design while gaining experience in front-end development.
+This is my personal portfolio website — Hello Kitty–themed — built to showcase my academic, professional, and creative work. I created it to have fun learning React and express myself through design. 
 
 ### ✨ About This Project
 
@@ -11,7 +11,7 @@ This site is built entirely from scratch using:
 - 💅 React-Bootstrap for responsive layout
 - 💃 Animate.css for transitions and effects
 
-Despite starting with no prior experience in React, JavaScript, or CSS frameworks, I built the entire portfolio in just **5 hours**. It was a playful challenge and a great way to learn by doing.
+Despite starting with no prior experience in React, JavaScript, or CSS frameworks, I built the entire portfolio in **5 hours**. 
 
 ### 🧠 Features
 
@@ -51,9 +51,9 @@ npm start
 ### 👩🏻‍💻 Author
 
 Francesca Kubica  
-Built with React, a little courage, and a lot of pink.
+Built with React, passion, and a love for the color pink. 
 
-**Live Site:** [francescakubica.github.io](https://francescakubica.github.io)
+**Live Site:** [francescakubica.github.io](https://francescakubica.github.io/portfolio/)
 
 ---
 
