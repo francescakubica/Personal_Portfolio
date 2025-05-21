@@ -11,7 +11,7 @@ This site is built entirely from scratch using:
 - 💅 React-Bootstrap for responsive layout
 - 💃 Animate.css for transitions and effects
 
-Despite starting with no prior experience in React, JavaScript, or CSS frameworks, I built the entire portfolio in **6 hours**. 
+Despite starting with no prior experience in React, JavaScript, or CSS frameworks, I built the entire portfolio in **8 hours**. 
 
 ### 🧠 Features
 
@@ -19,7 +19,8 @@ Despite starting with no prior experience in React, JavaScript, or CSS framework
 - Resume-style **Experience** section with animated company cards  
 - Projects organized by **Class**, **Work**, and **Future Ideas**
 - Fun SVGs, custom icons, and of course — lots of Hello Kitty 💖  
-- Fully deployed with GitHub Pages
+- ✉️ **Contact form** powered by EmailJS with working auto-reply and message forwarding
+- 🖥️ Fully deployed with GitHub Pages  
 
 ---
 
@@ -27,24 +28,24 @@ Despite starting with no prior experience in React, JavaScript, or CSS framework
 
 Clone the repo and install dependencies:
 
-```bash
+\`\`\`bash
 git clone https://github.com/francescakubica/portfolio.git
 cd portfolio
 npm install
-```
+\`\`\`
 
 Start the development server:
 
-```bash
+\`\`\`bash
 npm start
-```
+\`\`\`
 
 ### 🛠 Available Scripts
 
-- `npm start` – Run the app in development mode  
-- `npm test` – Launch the test runner  
-- `npm run build` – Build the app for production  
-- `npm run deploy` – Deploy to GitHub Pages
+- \`npm start\` – Run the app in development mode  
+- \`npm test\` – Launch the test runner  
+- \`npm run build\` – Build the app for production  
+- \`npm run deploy\` – Deploy to GitHub Pages
 
 ---
 
