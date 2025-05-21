@@ -53,7 +53,7 @@ npm start
 Francesca Kubica  
 Built with React, passion, and a love for the color pink. 
 
-**Live Site:** [francescakubica.github.io](https://francescakubica.github.io/portfolio/)
+**Live Site:** [francescakubica.github.io](https://francescakubica.github.io/Personal_Portfolio/)
 
 ---
 
