@@ -29,7 +29,8 @@ export const Contact = () => {
     setButtonText("Sending...");
 
     const templateParams = {
-      from_name: `${formDetails.firstName} ${formDetails.lastName}`,
+      from_name: `${formDetails.firstName} ${formDetails.lastName}`, // used for sender field
+      name: `${formDetails.firstName} ${formDetails.lastName}`,      // used for template variable {{name}}
       email: formDetails.email,
       message: formDetails.message,
     };
@@ -37,7 +38,7 @@ export const Contact = () => {
     try {
       await emailjs.send(
         'service_lv7iqsk',      // Your EmailJS service ID
-        'template_vbo774e',     // Replace with your actual template ID
+        'template_89fc2je',     // Replace with your actual template ID
         templateParams,
         '3kK4TYA8x7tLp029z'       // Replace with your EmailJS public key
       );
