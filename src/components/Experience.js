@@ -6,6 +6,8 @@ import companyLogo1 from '../assets/img/company1.svg';
 import companyLogo2 from '../assets/img/company2.png'; 
 import companyLogo3 from '../assets/img/company3.png';
 import companyLogo4 from '../assets/img/company4.png'; 
+import companyLogo5 from '../assets/img/company5.png'; 
+
 
 export const Experience = () => {
   const experiences = [
@@ -50,6 +52,16 @@ export const Experience = () => {
 		"Applied BERTopic modeling to identify and visualize latent topic clusters in ad content."
 	  ],
 	  logo: companyLogo3
+	}
+	{
+	  title: "Business Analyst Intern",
+	  company: "Claire's Place Foundation",
+	  date: "December 2023 – August 2024",
+	  description: [
+		"Trained & prompt-engineered a chatbot to answer questions for clients, improving the FAQs page efficiency.",
+		"Conducted competitive research to improve weakened donor retention and suggested data collection/KPIs. Analyzed data with hypothesis testing, multilinear modeling, and splitting dataset for confounding variables in R.",
+	  ],
+	  logo: companyLogo5
 	}
   ];
 
