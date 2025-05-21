@@ -11,7 +11,7 @@ This site is built entirely from scratch using:
 - 💅 React-Bootstrap for responsive layout
 - 💃 Animate.css for transitions and effects
 
-Despite starting with no prior experience in React, JavaScript, or CSS frameworks, I built the entire portfolio in **5 hours**. 
+Despite starting with no prior experience in React, JavaScript, or CSS frameworks, I built the entire portfolio in **6 hours**. 
 
 ### 🧠 Features
 
