@@ -22,7 +22,7 @@ export const Experience = () => {
 	{
 	  title: "Founder",
 	  company: "Marshall Artificial Intelligence Association",
-	  date: "June 2025 – August 2025",
+	  date: "August 2023 – Present",
 	  description: [
 		"Founded and scaled MAIA to 180+ active members, securing $8,000 in annual funding as a freshman and leading a team of 11.",
 		"Pitched and earned top-24 recognition from USC’s Marshall School among 1,500+ clubs by driving AI-business integration in Finance, Biotech, Real Estate, and Entertainment.",
