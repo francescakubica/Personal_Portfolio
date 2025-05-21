@@ -1,36 +1,60 @@
-# Personal Portfolio Website in React
+# Francesca Kubica’s Personal Portfolio 🎀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website — Hello Kitty–themed and proudly pink — built to showcase my academic, professional, and creative work. I created it to have fun learning React and express myself through design while gaining experience in front-end development.
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+### ✨ About This Project
 
-Built using:
+This site is built entirely from scratch using:
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
+- ⚛️ React (first time using it!)
+- 🎀 CSS and custom animations
+- 💅 React-Bootstrap for responsive layout
+- 💃 Animate.css for transitions and effects
 
-In the /personal-portfolio, you can run:
+Despite starting with no prior experience in React, JavaScript, or CSS frameworks, I built the entire portfolio in just **5 hours**. It was a playful challenge and a great way to learn by doing.
 
-### `npm start`
+### 🧠 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A clean, scrollable landing page with dynamic banners and gradients  
+- Resume-style **Experience** section with animated company cards  
+- Projects organized by **Class**, **Work**, and **Future Ideas**
+- Fun SVGs, custom icons, and of course — lots of Hello Kitty 💖  
+- Fully deployed with GitHub Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repo and install dependencies:
 
-### `npm run build`
+```bash
+git clone https://github.com/francescakubica/portfolio.git
+cd portfolio
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠 Available Scripts
+
+- `npm start` – Run the app in development mode  
+- `npm test` – Launch the test runner  
+- `npm run build` – Build the app for production  
+- `npm run deploy` – Deploy to GitHub Pages
+
+---
+
+### 👩🏻‍💻 Author
+
+Francesca Kubica  
+Built with React, a little courage, and a lot of pink.
+
+**Live Site:** [francescakubica.github.io](https://francescakubica.github.io)
+
+---
+
+Thanks for visiting! ✨
