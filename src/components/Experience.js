@@ -52,7 +52,7 @@ export const Experience = () => {
 		"Applied BERTopic modeling to identify and visualize latent topic clusters in ad content."
 	  ],
 	  logo: companyLogo3
-	}
+	},
 	{
 	  title: "Business Analyst Intern",
 	  company: "Claire's Place Foundation",
