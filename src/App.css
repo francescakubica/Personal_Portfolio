@@ -106,9 +106,21 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #FFE8E8;
 }
-nav.navbar a.navbar-brand {
-    width: 9%;
+
+nav.navbar .navbar-brand {
+  flex-shrink: 0;
+  width: auto;
+  max-width: 140px;
 }
+
+nav.navbar .navbar-brand img {
+  width: 100%;
+  max-width: 85px;
+  height: auto;
+  display: block;
+}
+
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #8B0000 !important;
