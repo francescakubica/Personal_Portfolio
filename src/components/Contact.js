@@ -37,10 +37,10 @@ export const Contact = () => {
 
     try {
       await emailjs.send(
-        'service_lv7iqsk',      // Your EmailJS service ID
-        'template_89fc2je',     // Replace with your actual template ID
+        'service_lv7iqsk',      //  EmailJS service ID
+        'template_89fc2je',     // actual template ID
         templateParams,
-        '3kK4TYA8x7tLp029z'       // Replace with your EmailJS public key
+        '3kK4TYA8x7tLp029z'       // EmailJS public key
       );
 
       setStatus({ success: true, message: "Message sent successfully!" });
