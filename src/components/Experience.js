@@ -2,9 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
-import companyLogo1 from '../assets/img/company1.png';
+import companyLogo1 from '../assets/img/company1.svg';
 import companyLogo2 from '../assets/img/company2.png'; 
-import companyLogo3 from '../assets/img/company3.jpg';
+import companyLogo3 from '../assets/img/company3.png';
 import companyLogo4 from '../assets/img/company4.png'; 
 
 export const Experience = () => {
