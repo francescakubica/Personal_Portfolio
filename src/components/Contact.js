@@ -10,9 +10,9 @@ export const Contact = () => {
     firstName: '',
     lastName: '',
     email: '',
-    phone: '',
+    phone: '',      // not used 
     message: ''
-  }
+  };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
@@ -31,7 +31,6 @@ export const Contact = () => {
     const templateParams = {
       from_name: `${formDetails.firstName} ${formDetails.lastName}`,
       from_email: formDetails.email,
-      phone: formDetails.phone,
       message: formDetails.message,
     };
 
