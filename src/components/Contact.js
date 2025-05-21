@@ -30,7 +30,7 @@ export const Contact = () => {
 
     const templateParams = {
       from_name: `${formDetails.firstName} ${formDetails.lastName}`,
-      from_email: formDetails.email,
+      email: formDetails.email,
       message: formDetails.message,
     };
 
