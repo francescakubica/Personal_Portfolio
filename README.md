@@ -1,6 +1,6 @@
 # Francesca Kubica’s Personal Portfolio 🎀
 
-This is my personal portfolio website — Hello Kitty–themed — built to showcase my academic, professional, and creative work. I created it to have fun and express myself through design. 
+This is my personal portfolio website — Hello Kitty–themed — built to showcase my academic, professional, and future plans. I created it to have fun. 
 
 ### ✨ About This Project
 
